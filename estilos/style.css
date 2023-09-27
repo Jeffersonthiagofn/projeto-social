@@ -15,21 +15,26 @@ body {
     background: url(../imagens/fundo.jpg) no-repeat left center;
     background-size: auto;
     background-attachment: fixed;
+
 }
 
 main {
-    position: relative;
+    display: flex;
+    justify-content: right;
     height: 100vh;
 }
 
 section#telefone {
-    position: absolute;
-    display: flex;  
-    justify-content:right;
-
-
     height: 540px;
     width: 350px;
     background: url(../imagens/Iphone.png) no-repeat;
-    
+}
+
+iframe#tela{
+    position: relative;
+    top: 94px;
+    left: 55px;
+    width: 202px;
+    height: 438px;
+    border-radius: 25px;
 }
