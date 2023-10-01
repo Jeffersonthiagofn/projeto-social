@@ -12,28 +12,48 @@ html, body {
     background-color: black;
 }
 body {
-    background: black url(../imagens/fundo.jpg) no-repeat center center;
+    background: black url(../imagens/5.png) no-repeat ;
+    background-size: cover;
     background-attachment: fixed;
 }
 
 main {
-    display: flex;
-    justify-content:right ;
-    align-items: center;
+    position: relative;
     height: 100vh;
 }
 
 section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     height: 646px;
     width: 350px;
     background: url(../imagens/Iphone.png) no-repeat;
+    
+    
+    
 }
 
 iframe#tela{    
     position: relative;
     top: 94px;
     left: 55px;
+    
     width: 203px;
     height: 438px;
     border-radius: 25px;
+    
+    
+}
+
+section#sociais {
+    text-align: right;
+}
+
+section#sociais img {
+    margin: 7px 20px;
+    width: 50px;
+    border-radius: 50%;
+
 }
