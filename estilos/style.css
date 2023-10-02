@@ -12,7 +12,7 @@ html, body {
     background-color: black;
 }
 body {
-    background: black url(../imagens/5.png) no-repeat ;
+    background-image: radial-gradient(circle, #e5e5e5, #cacbca, #b1b1b1, #979797, #7f7f7f, #707070, #616161, #535353, #494949, #404040, #373737, #2e2e2e);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -20,6 +20,7 @@ body {
 main {
     position: relative;
     height: 100vh;
+
 }
 
 section#telefone {
@@ -27,18 +28,17 @@ section#telefone {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 646px;
-    width: 350px;
+    width: 227px;
+    height: 458px;
     background: url(../imagens/Iphone.png) no-repeat;
-    
-    
-    
+    box-shadow: rgb(0, 0, 0) 0px 25px 20px -20px;
+    border-radius: 40px;
 }
 
 iframe#tela{    
     position: relative;
-    top: 94px;
-    left: 55px;
+    top: 10px;
+    left: 12px;
     
     width: 203px;
     height: 438px;
